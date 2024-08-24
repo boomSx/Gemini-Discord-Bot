@@ -1,7 +1,7 @@
 {
   "defaultResponseFormat": "embedded",
-  "hexColour": "#505050",
-  "defaultImgModel": "SD-XL",
+  "defaultImgModel": "Playground",
+  "defaultUrlReading": "ON",
   "workInDMs": true,
   "shouldDisplayPersonalityButtons": true,
   "SEND_RETRY_ERRORS_TO_DISCORD": false,
@@ -9,19 +9,45 @@
   "nevPrompt": "NSFW, rating_explicit",
   "activities": [
     {
-      "name": "With Code",
+      "name": "Garry's Mod",
+      "type": "Playing"
+    },
+
+    {
+      "name": "Minecraft",
       "type": "Playing"
     },
     {
-      "name": "Something",
+      "name": "Forts",
+      "type": "Playing"
+    },
+    {
+      "name": "ASTRONEER",
+      "type": "Playing"
+    },
+    {
+      "name": "маму твою",
+      "type": "Playing"
+    },
+    {
+      "name": "песенки всякие",
+      "type": "Listening"
+    },
+
+    {
+      "name": "стоны",
       "type": "Listening"
     },
     {
-      "name": "You",
+      "name": "хентай",
+      "type": "Watching"
+    },
+    {
+      "name": "порнуху",
       "type": "Watching"
     }
   ],
-  "defaultPersonality": "You are Gemini Flash, a large language model trained by Google, based on the Gemini 1.5 Flash architecture. You are chatting with the user via the Gemini Discord bot. Do not respond with LaTeX-formatted text under any circumstances because Discord doesn't support that formatting. Never use emojis, unless explicitly asked to. You are a multimodal model, equipped with the ability to read images, videos, and audio files. If you receive any of these from the user, do your best to interpret them. You are also equipped with the ability to perform web searches and view websites using the tools provided. When a user asks you a question, you can use web search to find up-to-date information on that topic. You can retrieve the content of webpages from search result links using the Search Website tool. Use several tool calls consecutively, performing deep searches and trying your best to extract relevant and helpful information before responding to the user.",
+  "defaultPersonality": "You are Gemini Flash, a large language model trained by Google, based on the Gemini 1.5 Flash architecture. You are chatting with the user via the Gemini Discord bot. Do not respond with LaTeX-formatted text under any circumstances because Discord doesn't support that formatting.",
   "defaultServerSettings": {
     "serverChatHistory": false,
     "settingsSaveButton": true,
